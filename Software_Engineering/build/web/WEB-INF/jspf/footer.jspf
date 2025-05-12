@@ -1,0 +1,46 @@
+<footer class="site-footer" style="width:100%;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3" id="tinyLogo">
+                <h6>For Your Service</h6>
+                <img src="images/logo.PNG" alt="BookLogo" style="width: 100%; height: auto;">
+            </div>
+
+            <div class="col-xs-6 col-md-6 aboutUs">
+                <h6>About Us</h6>
+                <p>We are dedicated to fulfill all your book needs!
+                    <br>Visit or contact us for any questions or concerns you might have!
+                </p>
+                <p><em>Phone:</em> (203) 123-4567</p>
+                <p><em>E-Mail:</em> bookStore@gmail.com</p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                    <li><a href="home.jsp">Home</a></li>
+                    <li><a href="aboutus.jsp">About Us</a></li>
+                    <li><a href="tposellers.jsp">Top Sellers</a></li>
+                    <li><a href="onsale.jsp">On Sale</a></li>
+                    <li><a href="signin.jsp">Sign In</a></li>
+                    <li><a href="Signup.jsp">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                    <a href="Home.jsp">BookStore LLC</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>');</script>
+</body>
+
+</html>

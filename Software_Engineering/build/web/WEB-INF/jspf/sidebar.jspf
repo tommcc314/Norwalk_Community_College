@@ -1,0 +1,24 @@
+<a href="javascript:void(0);" class="icon" onclick="sideBar()" id="sidebar-toggle">
+        <i class="fa fa-bars"></i>
+    </a>
+<div class="container-fluid">
+    <div class="row">
+        <nav id="sidebar" class="links">
+            <h6>MAIN LINKS</h6>
+            <ul>
+                <li><a href="topsellers.jsp">Top Sellers</a></li>
+                <li><a href="onsale.jsp">On Sale</a></li>
+                <li><a href="#">Highest Reviewed</a></li>
+                <li><a href="product.jsp?isbn=0-07-882122-3">Book of the Week!</a></li>
+            </ul>
+            <h6>Popular Categories</h6>
+            <ul>
+                <li><a href="searchResults.jsp?ctgry=database&search=">Database</a></li>
+                <li><a href="searchResults.jsp?ctgry=web&search=">Web Development</a></li>
+                <li><a href="searchResults.jsp?ctgry=graphics&search=">Graphic Design</a></li>
+                <li><a href="searchResults.jsp?ctgry=JavaScript&search=">JavaScript</a></li>
+                <li><a href="searchResults.jsp?ctgry=programming&search=">Programming</a></li>
+                <li><a href="searchResults.jsp?ctgry=HTML&search=">HTML</a></li>
+
+            </ul>
+        </nav>

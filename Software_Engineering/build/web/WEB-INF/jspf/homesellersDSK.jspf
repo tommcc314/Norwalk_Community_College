@@ -1,0 +1,21 @@
+
+<%
+
+    for (int i = 0; i < 4; i++) {
+        rs.next();
+%> 
+<div class="col-md-3 topImg" style="padding-top: 20px; padding-bottom: 20px;">
+    <a href="product.jsp?isbn=<%= rs.getString("isbn")%>" style="padding-bottom: 20px;">
+        <img src="<%= rs.getString("COVERPIC")%>" alt="book" class="BP" style="height: 100%; width: auto; margin-bottom: 20px; margin-top: 20px;">
+    </a>
+    <p>
+    <a href="product.jsp?isbn=<%= rs.getString("isbn")%>"
+       <h5><b><%= rs.getString("TITLE")%></b></h5>
+    </a>
+    </p>
+    <p style="padding-bottom: 20px">$<%= rs.getString("PRICE")%></p>
+</div>
+    <div class="padding-top: 20px;"></div>
+<%
+    }
+%>

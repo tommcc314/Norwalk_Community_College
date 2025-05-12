@@ -1,0 +1,42 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Cart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/cart.css" />
+        <link rel="stylesheet" href="css/FooterStyle.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />   
+        <link rel="stylesheet" href="css/sideBar.css" />
+        <link rel="stylesheet" href="css/SearchBarStyle.css"/>
+    </head>
+<body style="height: 100%;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+
+    <div class="topnav" id="myTopnav">
+        <img id="logo" src="images/templogo.PNG" alt="logo" />
+        <a href="home.jsp" class="button">Home</a>
+        <a href="aboutus.jsp" class="button">About Us</a>
+        <a href="topsellers.jsp" class="button">Top Sellers</a>
+        <a href="onsale.jsp" class="button">On Sale</a>
+        <a href="contact.jsp" class="button">Contact Us</a>
+        <a href="Signup.jsp" class="button">Sign Up</a>
+        <a href="signin.jsp" class="button">Sign In</a>
+        <a href="javascript:void(0);" class="icon" onclick="topNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a href="cart.jsp" class="button" id="cart"><i class="material-icons" style="font-size: 48px; margin-top: 0px; margin-left: 10px;">shopping_cart</i></a> 
+    </div>
+    

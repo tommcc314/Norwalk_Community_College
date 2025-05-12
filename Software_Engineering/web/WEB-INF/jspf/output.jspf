@@ -1,0 +1,33 @@
+<%
+
+    rs.last();
+    int bookCount = rs.getRow();
+    rs.first();
+    if (bookCount == 0) {
+%>  
+<div class="row">
+    <h2>Hmmm... There currently seems to be no matches found</h2>
+</div>
+<%
+    }
+    for (int i = 0; i < bookCount; i++) {
+%> 
+<div class="row itemOutput">
+    <div class="col-md-2 bookImage">
+        <a href="product.jsp?isbn=<%= rs.getString("ISBN")%>"><img src="<%= rs.getString("COVERPIC")%>" alt="Book_Title"></a>
+    </div>
+    <div class="col-md-6 bookInfo text-left">
+        <a href="product.jsp?isbn=<%= rs.getString("ISBN")%>"> 
+            <h5><%= rs.getString("TITLE")%></h5>
+        </a>
+        <h6>By <%= rs.getString("AU_FIRSTNAME")%> <%= rs.getString("AU_LASTNAME")%></h6>
+        <p><%= rs.getString("DESCRIPTION")%></p>
+    </div>
+    <div class="col-md-2 addCart">
+        <h5>$<%= rs.getString("PRICE")%></h5>
+        <a href="cart.jsp?isbn=<%= rs.getString("isbn") %>"><button type="button" style="width: 100%" class="btn btn-primary">Add to Cart</button></a>
+    </div>
+</div>
+<%
+    rs.next();}
+%>
